@@ -1,0 +1,55 @@
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.iconFather{
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 20px;
+}
+.iconFather svg{
+	width: 1.5em;
+    height: 1.5em;
+    transition: all 0.3s;
+    margin: 0 10px;
+}
+.iconFather .active{
+	color: red;
+    transform: scale(1.2);
+}
+.fontColor{
+	position:fixed;
+	top: 60px;
+    left: 28px;
+}
+#canvas{
+	border: 1px solid black;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.color {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+	transition: all .5s;
+}
+#black{
+	background: black;
+}
+#green{
+	background: green;
+	mar
+}
+#yellow{
+	background: yellow;
+}
+.active{
+	width: 25px;
+	height: 25px;
+}
