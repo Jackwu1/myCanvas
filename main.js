@@ -96,6 +96,7 @@ if(document.body.ontouchstart === undefined) {
 		clickEvent(e, e.touches[0].pageX, e.touches[0].pageY)
 	}
 	canvas.ontouchmove = function(e) {
+		e.preventDefault();
 		slide(e, e.touches[0].pageX, e.touches[0].pageY);
 	}
 	canvas.ontouchend = function(e) {
