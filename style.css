@@ -4,6 +4,18 @@
    fill: currentColor;
    overflow: hidden;
 }
+.icon:hover{
+	cursor: pointer;
+}
+.lineFather{
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 20px;
+}
+.lineFather .active{
+	color: red;
+}
 .iconFather{
 	position: fixed;
 	left: 0;
@@ -19,6 +31,9 @@
 .iconFather .active{
 	color: red;
     transform: scale(1.2);
+}
+.lineFather span:hover{
+	cursor: pointer;
 }
 .fontColor{
 	position:fixed;
@@ -38,6 +53,9 @@
 	border-radius: 20px;
 	margin-top: 10px;
 	transition: all .5s;
+}
+.color:hover{
+	cursor: pointer;
 }
 #black{
 	background: black;
